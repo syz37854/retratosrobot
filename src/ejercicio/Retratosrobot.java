@@ -26,7 +26,7 @@ public class Retratosrobot {
 		String barb4 = "\\mmmmmmm/";
 		String rep = "Si";
 		
-		if (rep == "Si") {
+		do {
 		//Pelo
 		System.out.println("Opción 1: WWWWWWWWW");
 		System.out.println("Opción 2: \\\\\\//////");
@@ -103,7 +103,8 @@ public class Retratosrobot {
 		else if (br == 4)
 			System.out.println(barb4);
 		rep = IO.readln("¿Quieres hacer otro robot? (Si/No)");
-		};
+		} while (rep != "No");
+		
 	}
 	
 }
